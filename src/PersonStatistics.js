@@ -51,6 +51,8 @@ export class PersonStatistics {
                     biggestScore = element.score;
                     personName = element.name;
                 }
+            }else{
+                return false;
             }
             
         
